@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #9ccc9c;
+}
+
+#contenedor{
+    width: 70%;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid green;
+    background-color: white;
+}
+#menu{
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 50%;
+    margin-right: 70px;
+}
+#logo{
+    background-color: #F2F2F0;
+}
+#menu>ul{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+    list-style-type: none;
+    font-size: 10pt;
+    height: 100%;
+    padding: 10px auto;
+}
+#menu a{
+    padding:10px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: black;
+    margin: 1px;
+    margin-top: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+#menu a:hover{
+    
+    color: black;
+    cursor: pointer;
+}
+hr{
+    margin: 10px;
+    background-color: #9ccc9c;
+    height: 4px;
+
+}
+#contenido{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.caja{
+    width: 600px;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+}
+.box{
+    float: left;
+}
+p{
+    font-size: 25px;
+}
+.SUBTITULO1 {
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+.SUBTITULO2{
+    background-color: #e8b444;
+    text-align: center;
+    color: white;
+}
+.SUBTITULO3{
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+.SUBTITULO4{
+    background-color: purple;
+    text-align: center;
+    color: white;
+}
+#pie{
+    background-color: #f0ecec;
+    display: flex;
+}
+#pie2{
+    width: 400px;
+}
+#img{
+    justify-items: right;
+    text-align: right;
+    margin: auto;
+    width: 70%;
+    padding-top: 25px;
+}
